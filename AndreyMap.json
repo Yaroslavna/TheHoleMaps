@@ -883,7 +883,7 @@
 					gameType : 0,
 					commonParams : {
 						classicGameType : 0,
-						block : 5,
+						block : 6,
 						blockRotation : 0,
 						figureRotation : 90,
 						rotationLimit : 0.0,
