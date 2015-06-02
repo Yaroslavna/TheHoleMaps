@@ -1,6 +1,6 @@
 ﻿{
 	id : "default",
-	comment : "Начальный вариант карты Кати - эксперименты Андрея. Пишем сюда комментарии к изменениям",
+	comment : "Начальный вариант карты Кати. Пишем сюда комментарии к изменениям",
 	screens : [{
 			id : "main",
 			title : "Карта по умолчанию",
@@ -276,7 +276,7 @@
 					gameType : 0,
 					commonParams : {
 						classicGameType : 0,
-						block : 6,
+						block : 5,
 						blockRotation : 0,
 						figureRotation : 90,
 						rotationLimit : 0.0,
