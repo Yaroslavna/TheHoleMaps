@@ -58,7 +58,7 @@
 					gameType : 1,
 					commonParams : {
 						classicGameType : 0,
-						block : 0,
+						block : 1,
 						blockRotation : 0,
 						figureRotation : 45,
 						rotationLimit : 0.0,
