@@ -1015,7 +1015,7 @@
 						globalTimer : 0
 					},
 					inputParams : {
-						requiredLevels : ["18-1", "18-2"],
+						sufficientLevels : ["18-1", "18-2"],
 						scoreFee : 0,
 						currencyFee : 0
 					},
