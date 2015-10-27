@@ -1273,7 +1273,7 @@
 						rotationLimit : 4.0,
 						timeSetting : 0,
 						fixedTimer : 0,
-						levelTimers : [,0]
+						levelTimers : [30]
 					},
 					evolutionParams : {
 						blockGenerationPattern : 0,
