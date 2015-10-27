@@ -617,7 +617,7 @@
 					gameType : 2,
 					commonParams : {
 						classicGameType : 0,
-						block : 6,
+						block : 0,
 						blockRotation : 0,
 						figureRotation : 0,
 						rotationLimit : 0.0,
