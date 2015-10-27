@@ -982,16 +982,16 @@
 				}, {
 					id : "18",
 					type : 0,
-					gameType : 1,
+					gameType : 5,
 					commonParams : {
 						classicGameType : 0,
 						block : 1,
 						blockRotation : 0,
 						figureRotation : 45,
-						rotationLimit : 0.0,
+						rotationLimit : 3.0,
 						timeSetting : 0,
 						fixedTimer : 0,
-						levelTimers : [20]
+						levelTimers : [0]
 					},
 					evolutionParams : {
 						blockGenerationPattern : 0,
@@ -1029,16 +1029,16 @@
 				}, {
 					id : "19",
 					type : 0,
-					gameType : 1,
+					gameType : 5,
 					commonParams : {
 						classicGameType : 0,
 						block : 6,
 						blockRotation : 0,
 						figureRotation : 45,
-						rotationLimit : 0.0,
+						rotationLimit : 3.0,
 						timeSetting : 0,
 						fixedTimer : 0,
-						levelTimers : [20]
+						levelTimers : [0]
 					},
 					evolutionParams : {
 						blockGenerationPattern : 0,
@@ -1076,16 +1076,16 @@
 				}, {
 					id : "20",
 					type : 0,
-					gameType : 1,
+					gameType : 5,
 					commonParams : {
 						classicGameType : 0,
 						block : 0,
 						blockRotation : 0,
 						figureRotation : 45,
-						rotationLimit : 0.0,
+						rotationLimit : 3.0,
 						timeSetting : 0,
 						fixedTimer : 0,
-						levelTimers : [20]
+						levelTimers : [0]
 					},
 					evolutionParams : {
 						blockGenerationPattern : 0,
@@ -1123,16 +1123,16 @@
 				}, {
 					id : "21",
 					type : 0,
-					gameType : 1,
+					gameType : 5,
 					commonParams : {
 						classicGameType : 0,
 						block : 5,
 						blockRotation : 0,
 						figureRotation : 45,
-						rotationLimit : 0.0,
+						rotationLimit : 3.0,
 						timeSetting : 0,
 						fixedTimer : 0,
-						levelTimers : [20]
+						levelTimers : [0]
 					},
 					evolutionParams : {
 						blockGenerationPattern : 0,
@@ -1170,16 +1170,16 @@
 				}, {
 					id : "22",
 					type : 0,
-					gameType : 1,
+					gameType : 5,
 					commonParams : {
 						classicGameType : 0,
 						block : 3,
 						blockRotation : 0,
 						figureRotation : 45,
-						rotationLimit : 0.0,
+						rotationLimit : 3.0,
 						timeSetting : 0,
 						fixedTimer : 0,
-						levelTimers : [20]
+						levelTimers : [0]
 					},
 					evolutionParams : {
 						blockGenerationPattern : 0,
@@ -1223,10 +1223,10 @@
 						block : 4,
 						blockRotation : 0,
 						figureRotation : 45,
-						rotationLimit : 0.0,
+						rotationLimit : 3.0,
 						timeSetting : 0,
 						fixedTimer : 0,
-						levelTimers : [20]
+						levelTimers : [0]
 					},
 					evolutionParams : {
 						blockGenerationPattern : 0,
@@ -2281,15 +2281,485 @@
 						}
 					}
 				}, {
-					id : "38",
+					id : "41-1",
 					type : 0,
 					gameType : 1,
 					commonParams : {
 						classicGameType : 0,
-						block : 3,
+						block : 0,
 						blockRotation : 0,
 						figureRotation : 45,
 						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 50,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 6,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["40"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "42-1",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 0,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 3.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [0]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 55,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 7,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["41-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "43-1",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 0,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 4.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [30]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 60,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 8,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["42-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "44-1",
+					type : 2,
+					gameType : 9,
+					commonParams : {
+						classicGameType : 0,
+						block : 0,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [25]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 80,
+						initialBlocksMax : 80,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 80,
+							dirtyPassType : 1,
+							dirtyPassValue : 80
+						},
+						rounds : 0,
+						totalBlocks : 0,
+						creature : 3,
+						globalTimer : 200
+					},
+					inputParams : {
+						requiredLevels : ["43-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 1,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 0
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "45-1-1",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 4,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 20,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 6,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["44-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "46-1-1",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 4,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 3.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [0]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 22,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 7,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["45-1-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "47-1-1",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 4,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 4.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [30]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 25,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 8,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["46-1-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "48-1-1",
+					type : 2,
+					gameType : 9,
+					commonParams : {
+						classicGameType : 0,
+						block : 4,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [25]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 30,
+						initialBlocksMax : 30,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 30,
+							dirtyPassType : 1,
+							dirtyPassValue : 30
+						},
+						rounds : 0,
+						totalBlocks : 0,
+						creature : 3,
+						globalTimer : 200
+					},
+					inputParams : {
+						requiredLevels : ["47-1-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 1,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 0
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "45-1-2",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 5,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 30,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 6,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["44-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "46-1-2",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 5,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 3.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [0]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 33,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 7,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["45-1-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "47-1-2",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 5,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 4.0,
 						timeSetting : 0,
 						fixedTimer : 0,
 						levelTimers : [30]
@@ -2305,13 +2775,13 @@
 							dirtyPassType : 1,
 							dirtyPassValue : 1
 						},
-						rounds : 7,
+						rounds : 8,
 						totalBlocks : 0,
 						creature : 0,
 						globalTimer : 0
 					},
 					inputParams : {
-						requiredLevels : ["37"],
+						requiredLevels : ["46-1-2"],
 						scoreFee : 0,
 						currencyFee : 0
 					},
@@ -2328,15 +2798,297 @@
 						}
 					}
 				}, {
-					id : "39",
+					id : "48-1-2",
+					type : 2,
+					gameType : 9,
+					commonParams : {
+						classicGameType : 0,
+						block : 5,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [25]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 40,
+						initialBlocksMax : 40,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 40,
+							dirtyPassType : 1,
+							dirtyPassValue : 40
+						},
+						rounds : 0,
+						totalBlocks : 0,
+						creature : 3,
+						globalTimer : 200
+					},
+					inputParams : {
+						requiredLevels : ["47-1-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 1,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 0
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				},  {
+					id : "41-2",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 6,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 23,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 6,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["40"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "42-2",
 					type : 0,
 					gameType : 5,
 					commonParams : {
 						classicGameType : 0,
-						block : 3,
+						block : 6,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 3.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [0]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 24,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 7,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["41-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "43-2",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 6,
 						blockRotation : 0,
 						figureRotation : 45,
 						rotationLimit : 4.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [30]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 26,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 8,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["42-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "44-2",
+					type : 2,
+					gameType : 9,
+					commonParams : {
+						classicGameType : 0,
+						block : 6,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [25]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 30,
+						initialBlocksMax : 30,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 30,
+							dirtyPassType : 1,
+							dirtyPassValue : 30
+						},
+						rounds : 0,
+						totalBlocks : 0,
+						creature : 3,
+						globalTimer : 200
+					},
+					inputParams : {
+						requiredLevels : ["43-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 1,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 0
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "45-2-1",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 1,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 38,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 6,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["44-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "46-2-1",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 1,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 3.0,
 						timeSetting : 0,
 						fixedTimer : 0,
 						levelTimers : [0]
@@ -2352,13 +3104,13 @@
 							dirtyPassType : 1,
 							dirtyPassValue : 1
 						},
-						rounds : 8,
+						rounds : 7,
 						totalBlocks : 0,
 						creature : 0,
 						globalTimer : 0
 					},
 					inputParams : {
-						requiredLevels : ["38"],
+						requiredLevels : ["45-2-1"],
 						scoreFee : 0,
 						currencyFee : 0
 					},
@@ -2375,15 +3127,15 @@
 						}
 					}
 				}, {
-					id : "40",
+					id : "47-2-1",
 					type : 0,
-					gameType : 1,
+					gameType : 5,
 					commonParams : {
 						classicGameType : 0,
-						block : 3,
+						block : 4,
 						blockRotation : 0,
 						figureRotation : 45,
-						rotationLimit : 0.0,
+						rotationLimit : 4.0,
 						timeSetting : 0,
 						fixedTimer : 0,
 						levelTimers : [30]
@@ -2399,13 +3151,13 @@
 							dirtyPassType : 1,
 							dirtyPassValue : 1
 						},
-						rounds : 9,
+						rounds : 8,
 						totalBlocks : 0,
 						creature : 0,
 						globalTimer : 0
 					},
 					inputParams : {
-						requiredLevels : ["39"],
+						requiredLevels : ["46-2-1"],
 						scoreFee : 0,
 						currencyFee : 0
 					},
@@ -2422,12 +3174,12 @@
 						}
 					}
 				}, {
-					id : "41",
+					id : "48-2-1",
 					type : 2,
 					gameType : 9,
 					commonParams : {
 						classicGameType : 0,
-						block : 3,
+						block : 1,
 						blockRotation : 0,
 						figureRotation : 45,
 						rotationLimit : 0.0,
@@ -2452,7 +3204,610 @@
 						globalTimer : 200
 					},
 					inputParams : {
-						requiredLevels : ["30"],
+						requiredLevels : ["47-2-1"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 1,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 0
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "45-2-2",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 3,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 50,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 6,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["44-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "46-2-2",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 3,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 3.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [0]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 52,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 7,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["45-2-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "47-2-2",
+					type : 0,
+					gameType : 5,
+					commonParams : {
+						classicGameType : 0,
+						block : 3,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 4.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [30]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 55,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 8,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["46-2-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "48-2-2",
+					type : 2,
+					gameType : 9,
+					commonParams : {
+						classicGameType : 0,
+						block : 3,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [25]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 60,
+						initialBlocksMax : 60,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 60,
+							dirtyPassType : 1,
+							dirtyPassValue : 60
+						},
+						rounds : 0,
+						totalBlocks : 0,
+						creature : 3,
+						globalTimer : 200
+					},
+					inputParams : {
+						requiredLevels : ["47-2-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 1,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 0
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "49",
+					type : 0,
+					gameType : 2,
+					commonParams : {
+						classicGameType : 0,
+						block : 0,
+						blockRotation : 0,
+						figureRotation : 0,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 20,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 0,
+							dirtyPassValue : 0
+						},
+						rounds : 5,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						sufficientLevels : ["48-1-1","48-1-2","48-2-1","48-2-2"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 0,
+						successPercent : 0,
+						scoreReward : {
+							creditType : 1,
+							value : 1
+						}
+					}
+				}, {
+					id : "50",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 1,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 25,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 5,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["49"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "51",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 6,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 20,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 6,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["50"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "52",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 0,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 40,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 7,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["51"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "53",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 5,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 15,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 8,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["52"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "54",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 3,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 60,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 9,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["53"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				}, {
+					id : "55",
+					type : 0,
+					gameType : 1,
+					commonParams : {
+						classicGameType : 0,
+						block : 4,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 20,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 1,
+							dirtyPassValue : 1
+						},
+						rounds : 10,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["54"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 2,
+						successPercent : 70,
+						scoreReward : {
+							creditType : 3,
+							value : 1
+						},
+						currencyReward : {
+							creditType : 3,
+							value : 0
+						}
+					}
+				},  {
+					id : "56",
+					type : 0,
+					gameType : 2,
+					commonParams : {
+						classicGameType : 0,
+						block : 0,
+						blockRotation : 0,
+						figureRotation : 0,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [20]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 24,
+						initialBlocksMax : 0,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 1,
+							dirtyPassType : 0,
+							dirtyPassValue : 0
+						},
+						rounds : 7,
+						totalBlocks : 0,
+						creature : 0,
+						globalTimer : 0
+					},
+					inputParams : {
+						requiredLevels : ["55"],
+						scoreFee : 0,
+						currencyFee : 0
+					},
+					outputParams : {
+						successCheckOption : 0,
+						successPercent : 0,
+						scoreReward : {
+							creditType : 1,
+							value : 1
+						}
+					}
+				}, {
+					id : "57",
+					type : 2,
+					gameType : 9,
+					commonParams : {
+						classicGameType : 0,
+						block : 0,
+						blockRotation : 0,
+						figureRotation : 45,
+						rotationLimit : 0.0,
+						timeSetting : 0,
+						fixedTimer : 0,
+						levelTimers : [25]
+					},
+					evolutionParams : {
+						blockGenerationPattern : 0,
+						initialBlocks : 100,
+						initialBlocksMax : 100,
+						autoDetectInitialBlocks : false,
+						blockIncrementParams : {
+							cleanPassType : 1,
+							cleanPassValue : 100,
+							dirtyPassType : 1,
+							dirtyPassValue : 100
+						},
+						rounds : 0,
+						totalBlocks : 0,
+						creature : 3,
+						globalTimer : 200
+					},
+					inputParams : {
+						requiredLevels : ["56"],
 						scoreFee : 0,
 						currencyFee : 0
 					},
