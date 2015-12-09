@@ -11,10 +11,10 @@
 					gameType : 1,
 					commonParams : {
 						classicGameType : 0,
-						block : 0,
+						block : 1,
 						blockRotation : 0,
 						figureRotation : 45,
-						rotationLimit : 0.0,
+						rotationLimit : 2.0,
 						timeSetting : 0,
 						fixedTimer : 0,
 						levelTimers : [0, 0, 20]
@@ -58,7 +58,7 @@
 					gameType : 1,
 					commonParams : {
 						classicGameType : 0,
-						block : 0,
+						block : 1,
 						blockRotation : 0,
 						figureRotation : 45,
 						rotationLimit : 0.0,
@@ -1015,7 +1015,7 @@
 						globalTimer : 0
 					},
 					inputParams : {
-						requiredLevels : ["18-1", "18-2"],
+						sufficientLevels : ["18-1", "18-2"],
 						scoreFee : 0,
 						currencyFee : 0
 					},
