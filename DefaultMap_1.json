@@ -358,7 +358,7 @@
 							dirtyPassType : 1,
 							dirtyPassValue : 1
 						},
-						rounds : 8,
+						rounds : 3,
 						creature : 0,
 						globalTimer : 0
 					},
@@ -406,7 +406,7 @@
 							dirtyPassType : 1,
 							dirtyPassValue : 1
 						},
-						rounds : 9,
+						rounds : 4,
 						creature : 0,
 						globalTimer : 0
 					},
